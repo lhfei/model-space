@@ -1,0 +1,299 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Notebook JSON Schema",
+	"type": "object",
+	"properties": {
+		"paragraphs": {
+			"description": "所包含的图表元素",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"text": {
+						"description": "代码",
+						"type": "string"
+					},
+					"dateUpdated": {
+						"description": "最近修改时间",
+						"type": "string"
+					},
+					"config": {
+						"description": "图形显示配置选项",
+						"type": "object",
+						"properties": {
+							"colWidth": {
+								"description": "图形宽度设置",
+								"type": "number",
+								"minimum": 1,
+								"maximum": 12,
+								"default": 12
+							},
+							"graph": {
+								"description": "图形显示指标设置",
+								"type": "object",
+								"properties": {
+									"model": {
+										"description": "图形类型",
+										"type": "string",
+										"default": "table"
+									},
+									"height": {
+										"description": "图形高度",
+										"type": "number",
+										"default": 300
+									},
+									"optionOpen": {
+										"type": "boolean",
+										"default": false
+									},
+									"keys": {
+										"description": "维度信息",
+										"type": "object",
+										"properties": {
+											"name": {
+												"description": "字段名称",
+												"type": "string"
+											},
+											"index": {
+												"description": "字段索引位置(在select部分中出现的顺序)",
+												"type": "number",
+												"minimum": 0
+											},
+											"aggr": {
+												"description": "聚合函数名称",
+												"type": "string",
+												"default": "sum"
+											}
+										}
+									},
+									"values": {
+										"description": "统计指标(聚合函数统计信息)",
+										"type": "object",
+										"properties": {
+											"name": {
+												"description": "字段名称",
+												"type": "string"
+											},
+											"index": {
+												"description": "字段索引位置(在select部分中出现的",
+												"type": "number",
+												"minimum": 0
+											},
+											"aggr": {
+												"description": "聚合函数名称",
+												"type": "string",
+												"default": "sum"
+											}
+										}
+									},
+									"groups": {
+										"description": "分组信息",
+										"type": "array"
+									},
+									"sorter": {
+										"description": "排序元素",
+										"type": "array"
+									}
+								},
+								"required": [
+									"model",
+									"height"
+								]
+							}
+						},
+						"required": [
+							"colWidth",
+							"graph"
+						]
+					},
+					"settings": {
+						"description": "设置选项",
+						"type": "object",
+						"properties": {
+							"params": {
+								"type": "object"
+							},
+							"forms": {
+								"type": "object"
+							}
+						},
+						"required": [
+							"params",
+							"forms"
+						]
+					},
+					"apps": {
+						"type": "array",
+						"items": {}
+					},
+					"jobName": {
+						"description": "任务名称",
+						"type": "string"
+					},
+					"id": {
+						"description": "任务ID",
+						"type": "string"
+					},
+					"dateCreated": {
+						"description": "创建日期",
+						"type": "string"
+					},
+					"status": {
+						"description": "状态",
+						"type": "string"
+					},
+					"progressUpdateIntervalMs": {
+						"description": "任务进度刷新频率, 默认500毫秒",
+						"type": "integer",
+						"default": 500
+					},
+					"result": {
+						"type": "object",
+						"properties": {
+							"success": {
+								"description": "返回结果状态,[成功(true) | 失败(false)]",
+								"type": "boolean"
+							},
+							"message": {
+								"description": "返回消息",
+								"type": "string"
+							},
+							"data": {
+								"description": "返回结果数据",
+								"type": "array"
+							}
+						}
+					}
+				},
+				"required": [
+					"text",
+					"dateUpdated",
+					"config",
+					"settings",
+					"apps",
+					"jobName",
+					"id",
+					"dateCreated",
+					"status",
+					"progressUpdateIntervalMs"
+				]
+			}
+		},
+		"name": {
+			"description": "Notebook 名称",
+			"type": "string"
+		},
+		"id": {
+			"description": "Notebook ID, 服务端生成",
+			"type": "string"
+		},
+		"lastReplName": {
+			"type": "object",
+			"properties": {
+				"value": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"value"
+			]
+		},
+		"angularObjects": {
+			"type": "object",
+			"properties": {
+				"2BSU2MWUG:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BPZ4411M:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BTK8PFM1:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BRKPYDME:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BT6EDBN1:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BS5V5K17:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BSCUVRUY:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BRM2FTRX:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BQX14WEY:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BRNP2RDG:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BPR812SA:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BPR699PG:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BTNMSB3Q:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BSHT2PCA:shared_process": {
+					"type": "array",
+					"items": {}
+				},
+				"2BSZVA62U:shared_process": {
+					"type": "array",
+					"items": {}
+				}
+			},
+			"required": [
+				"2BSU2MWUG:shared_process",
+				"2BPZ4411M:shared_process",
+				"2BTK8PFM1:shared_process",
+				"2BRKPYDME:shared_process",
+				"2BT6EDBN1:shared_process",
+				"2BS5V5K17:shared_process",
+				"2BSCUVRUY:shared_process",
+				"2BRM2FTRX:shared_process",
+				"2BQX14WEY:shared_process",
+				"2BRNP2RDG:shared_process",
+				"2BPR812SA:shared_process",
+				"2BPR699PG:shared_process",
+				"2BTNMSB3Q:shared_process",
+				"2BSHT2PCA:shared_process",
+				"2BSZVA62U:shared_process"
+			]
+		},
+		"config": {
+			"type": "object"
+		},
+		"info": {
+			"type": "object"
+		}
+	},
+	"required": [
+		"paragraphs",
+		"name",
+		"id",
+		"lastReplName",
+		"angularObjects",
+		"config",
+		"info"
+	]
+}

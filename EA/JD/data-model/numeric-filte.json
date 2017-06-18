@@ -1,0 +1,24 @@
+[
+	{
+		"key": "column-1",
+		"type": "numeric",
+		"rule": "between",
+		"value": [
+			3, 7
+		]
+	}, {
+		"key": "column-1",
+		"type": "numeric",
+		"rule": "lt",
+		"value": [
+			9
+		]
+	},{
+		"key": "column-1",
+		"type": "numeric",
+		"rule": "gt",
+		"value": [
+			2
+		]
+	}
+]
