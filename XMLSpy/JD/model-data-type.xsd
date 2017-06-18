@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:jd="http://model.data.jd.com" targetNamespace="http://model.data.jd.com" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:simpleType name="string-rule">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="left">
+				<!--Match the start of the string to the pattern-->
+			</xs:enumeration>
+			<xs:enumeration value="right">
+				<!--Match the end of the string to the pattern-->
+			</xs:enumeration>
+			<xs:enumeration value="any">
+				<!--Match the pattern anywhere in the string-->
+			</xs:enumeration>
+			<xs:enumeration value="empty"/>
+			<xs:enumeration value="ne">
+				<!--not empty-->
+			</xs:enumeration>
+			<xs:enumeration value="exact">
+				<!--Match the entire string to the pattern-->
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="numeric-rule">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="le">
+				<!--less than or equal-->
+			</xs:enumeration>
+			<xs:enumeration value="gt">
+				<!--greater than-->
+			</xs:enumeration>
+			<xs:enumeration value="ge">
+				<!--greater than or equal-->
+			</xs:enumeration>
+			<xs:enumeration value="lt">
+				<!--less than or equal-->
+			</xs:enumeration>
+			<xs:enumeration value="eq">
+				<!--equal-->
+			</xs:enumeration>
+			<xs:enumeration value="ne">
+				<!--not equal-->
+			</xs:enumeration>
+			<xs:enumeration value="between">
+				<!--Apply a "between" constraint to the named property-->
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

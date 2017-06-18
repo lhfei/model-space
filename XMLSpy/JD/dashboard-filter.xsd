@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:jd="http://model.data.jd.com" targetNamespace="http://model.data.jd.com" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:include schemaLocation="./model-data-type.xsd"/>
+	<xs:simpleType name="layout-type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="grid"/>
+			<xs:enumeration value="tab"/>
+			<xs:enumeration value="iframe"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="measure">
+		<xs:sequence>
+			<xs:element name="bingTo" type="xs:string"/>
+			<xs:element name="key" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="filter">
+		<xs:sequence>
+			<xs:element name="key" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="dimension">
+		<xs:sequence>
+			<xs:element name="bindTo" type="xs:string"/>
+			<xs:element name="key" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="layout">
+		<xs:sequence>
+			<xs:element name="type" type="jd:layout-type"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="dashboard" type="jd:dashboardType">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="dashboardType">
+		<xs:sequence>
+			<xs:element name="layout" type="jd:layout-type"/>
+			<xs:element name="dimensions">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="dimension" type="jd:dimension" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="measures">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="measure" type="jd:measure" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="filters">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="filter" type="jd:filter" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required"/>
+		<xs:attribute name="schema" type="xs:string" use="required"/>
+		<xs:attribute name="table" type="xs:string" use="required"/>
+	</xs:complexType>
+</xs:schema>

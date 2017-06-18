@@ -1,0 +1,11 @@
+[{
+	"key": "column-1",
+	"type": "text",
+	"rule": "left",
+	"value": "Zhangsan"
+},{
+	"key": "column-1",
+	"type": "text",
+	"rule": "eq",
+	"value": "Zhangsan"
+}]
