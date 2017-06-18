@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="97e3adb6-9dc6-4135-aeb9-22e403fb7abe" activeEnvironment="Default" name="DatasourceController" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="deb1b89b-50cd-4ec7-b640-5e9a1a04a65f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="GetDataSource.do" path="/datafun-web/datasource/getDataSource.do" id="5362e822-73cc-4552-9032-160a7ca85a6c"><con:settings/><con:parameters/><con:method name="GetDataSource.do" id="1fbd44c0-875b-4ea3-9ece-bfa85602b883" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:get="http://localhost/datafun-web/datasource/getDataSource.do">get:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>502</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="e2f4283e-2848-4c44-adf5-b7a5cfb35190" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request>{
+ "type": "CUBE",
+ "projectName": "learn_kylin",
+ "limit": 5000
+}</con:request><con:originalUri>http://localhost/datafun-web/datasource/getDataSource.do</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="de856d8e-37a8-4d4d-b4b1-319b635e20a9" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="PreviewData.data" path="/datafun-web/datasource/previewData.do" id="0fce294a-5ac6-4722-8fdb-92c143ec6add"><con:settings/><con:parameters/><con:method name="PreviewData.data" id="e6d4074d-b301-4acf-a133-23b4019cc11b" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:prev="http://localhost/datafun-web/datasource/previewData.data">prev:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>502</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request 1" id="f2c65aa3-27c6-44fd-a186-d45f080287af" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request>{
+	"type": "CUBE",
+	"name": "kylin_sales_cube_update_case",
+	"dimensions": [{
+		"name": "CAL_DT",
+		"table": "DEFAULT.KYLIN_CAL_DT",
+		"column": "{FK}",
+		"derived": ["WEEK_BEG_DT"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "{FK}",
+		"derived": ["USER_DEFINED_FIELD1",
+		"USER_DEFINED_FIELD3",
+		"UPD_DATE",
+		"UPD_USER"]
+	}],
+	"measures": [{
+		"name": "TRANS_CNT",
+		"function": {
+			"expression": "COUNT",
+			"parameter": {
+				"type": "constant",
+				"value": "1",
+				"next_parameter": null
+			},
+			"returntype": "bigint"
+		},
+		"dependent_measure_ref": null
+	}],
+	"filters": [{
+		"type": "NUMERIC",
+		"key": "{FK}",
+		"name": "CATEGORY",
+		"rule": "EQ",
+		"value": ["123"],
+		"_treeid": "tree_116146"
+	}]
+}</con:request><con:originalUri>http://localhost/datafun-web/datasource/previewData.data</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="ef4cc40b-5f52-4ca5-90ef-4de84dd0c11b" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="PreviewSQL.do" path="/datafun-web/datasource/previewSQL.do" id="3e72dc7f-5cb7-49d8-8110-ab8e829fb6a0"><con:settings/><con:parameters/><con:method name="PreviewSQL.do" id="e117abbd-bc7f-4d2e-b0a9-0211766c72c0" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:prev="http://localhost/datafun-web/datasource/previewSQL.do">prev:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="30369cea-fc1a-4f29-b9a7-2575b9fcb0d5" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request>{
+	"type": "CUBE",
+	"name": "kylin_sales_cube_desc_clone",
+	"model_name": "kylin_sales_model",
+	"dimensions": [{
+		"name": "CAL_DT",
+		"table": "DEFAULT.KYLIN_CAL_DT",
+		"column": "WEEK_BEG_DT",
+		"derived": ["WEEK_BEG_DT"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "USER_DEFINED_FIELD1",
+		"derived": ["USER_DEFINED_FIELD1"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "USER_DEFINED_FIELD3",
+		"derived": ["USER_DEFINED_FIELD3"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "UPD_DATE",
+		"derived": ["UPD_DATE"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "UPD_USER",
+		"derived": ["UPD_USER"]
+	},
+	{
+		"name": "CATEGORY_HIERARCHY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "META_CATEG_NAME",
+		"derived": null
+	},
+	{
+		"name": "CATEGORY_HIERARCHY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "CATEG_LVL2_NAME",
+		"derived": null
+	},
+	{
+		"name": "CATEGORY_HIERARCHY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "CATEG_LVL3_NAME",
+		"derived": null
+	},
+	{
+		"name": "LSTG_FORMAT_NAME",
+		"table": "DEFAULT.KYLIN_SALES",
+		"column": "LSTG_FORMAT_NAME",
+		"derived": null
+	}],
+	"measures": [{
+		"name": "GMV_SUM",
+		"function": {
+			"expression": "SUM",
+			"parameter": {
+				"type": "column",
+				"value": "PRICE",
+				"next_parameter": null
+			},
+			"returntype": "decimal(19,4)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "GMV_MIN",
+		"function": {
+			"expression": "MIN",
+			"parameter": {
+				"type": "column",
+				"value": "PRICE",
+				"next_parameter": null
+			},
+			"returntype": "decimal(19,4)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "GMV_MAX",
+		"function": {
+			"expression": "MAX",
+			"parameter": {
+				"type": "column",
+				"value": "PRICE",
+				"next_parameter": null
+			},
+			"returntype": "decimal(19,4)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "TRANS_CNT",
+		"function": {
+			"expression": "COUNT",
+			"parameter": {
+				"type": "constant",
+				"value": "1",
+				"next_parameter": null
+			},
+			"returntype": "bigint"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "SELLER_CNT_HLL",
+		"function": {
+			"expression": "COUNT_DISTINCT",
+			"parameter": {
+				"type": "column",
+				"value": "SELLER_ID",
+				"next_parameter": null
+			},
+			"returntype": "hllc(10)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "SELLER_FORMAT_CNT",
+		"function": {
+			"expression": "COUNT_DISTINCT",
+			"parameter": {
+				"type": "column",
+				"value": "LSTG_FORMAT_NAME",
+				"next_parameter": null
+			},
+			"returntype": "hllc(10)"
+		},
+		"dependent_measure_ref": null
+	}],
+	"filters": [{
+		"type": "NUMERIC",
+		"key": "USER_DEFINED_FIELD1",
+		"name": "CATEGORY",
+		"rule": "EQ",
+		"value": ["123"],
+		"_treeid": "tree_116146"
+	}]
+}</con:request><con:originalUri>http://localhost/datafun-web/datasource/previewSQL.do</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="62df34f8-dee0-4b96-bcd0-56c8df46163f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="PreviewData.do" path="/datafun-web/datasource/previewData.do" id="acb22498-6c42-4806-9661-10435be5b4ee"><con:settings/><con:parameters/><con:method name="PreviewData.do" id="073741e2-7f8f-473f-bb2a-e564b0963d3b" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>500</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:prev="http://localhost/datafun-web/datasource/previewData.do">prev:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="597f9d4c-790d-49d9-b092-af1cbb467d25" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request>{
+	"type": "CUBE",
+	"name": "kylin_sales_cube_desc_clone",
+	"model_name": "kylin_sales_model",
+	"dimensions": [{
+		"name": "CAL_DT",
+		"table": "DEFAULT.KYLIN_CAL_DT",
+		"column": "WEEK_BEG_DT",
+		"derived": ["WEEK_BEG_DT"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "USER_DEFINED_FIELD1",
+		"derived": ["USER_DEFINED_FIELD1"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "USER_DEFINED_FIELD3",
+		"derived": ["USER_DEFINED_FIELD3"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "UPD_DATE",
+		"derived": ["UPD_DATE"]
+	},
+	{
+		"name": "CATEGORY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "UPD_USER",
+		"derived": ["UPD_USER"]
+	},
+	{
+		"name": "CATEGORY_HIERARCHY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "META_CATEG_NAME",
+		"derived": null
+	},
+	{
+		"name": "CATEGORY_HIERARCHY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "CATEG_LVL2_NAME",
+		"derived": null
+	},
+	{
+		"name": "CATEGORY_HIERARCHY",
+		"table": "DEFAULT.KYLIN_CATEGORY_GROUPINGS",
+		"column": "CATEG_LVL3_NAME",
+		"derived": null
+	},
+	{
+		"name": "LSTG_FORMAT_NAME",
+		"table": "DEFAULT.KYLIN_SALES",
+		"column": "LSTG_FORMAT_NAME",
+		"derived": null
+	}],
+	"measures": [{
+		"name": "GMV_SUM",
+		"function": {
+			"expression": "SUM",
+			"parameter": {
+				"type": "column",
+				"value": "PRICE",
+				"next_parameter": null
+			},
+			"returntype": "decimal(19,4)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "GMV_MIN",
+		"function": {
+			"expression": "MIN",
+			"parameter": {
+				"type": "column",
+				"value": "PRICE",
+				"next_parameter": null
+			},
+			"returntype": "decimal(19,4)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "GMV_MAX",
+		"function": {
+			"expression": "MAX",
+			"parameter": {
+				"type": "column",
+				"value": "PRICE",
+				"next_parameter": null
+			},
+			"returntype": "decimal(19,4)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "TRANS_CNT",
+		"function": {
+			"expression": "COUNT",
+			"parameter": {
+				"type": "constant",
+				"value": "1",
+				"next_parameter": null
+			},
+			"returntype": "bigint"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "SELLER_CNT_HLL",
+		"function": {
+			"expression": "COUNT_DISTINCT",
+			"parameter": {
+				"type": "column",
+				"value": "SELLER_ID",
+				"next_parameter": null
+			},
+			"returntype": "hllc(10)"
+		},
+		"dependent_measure_ref": null
+	},
+	{
+		"name": "SELLER_FORMAT_CNT",
+		"function": {
+			"expression": "COUNT_DISTINCT",
+			"parameter": {
+				"type": "column",
+				"value": "LSTG_FORMAT_NAME",
+				"next_parameter": null
+			},
+			"returntype": "hllc(10)"
+		},
+		"dependent_measure_ref": null
+	}],
+	"filters": [{
+		"type": "DATETIME",
+		"key": "DEFAULT.KYLIN_CAL_DT.WEEK_BEG_DT",
+		"name": "WEEK_BEG_DT",
+		"datasource": {
+			"type": "CUBE",
+			"schema": "DEFAULT",
+			"table": "DEFAULT.KYLIN_CAL_DT"
+		},
+		"rule": "AFTER",
+		"value": ["2013-04-28"]
+	}]
+}</con:request><con:originalUri>http://localhost/datafun-web/datasource/previewData.do</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="4f2349fc-9471-401f-ba0e-d9fd927e06e2" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="Save.do" path="/datafun-web/dataStory/save.do" id="7db0be1b-41e9-4c07-a6ae-f8112b4cd2a8"><con:settings/><con:parameters/><con:method name="Save.do" id="38205eb8-8728-4c41-b7b7-acb4f68a19a9" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:save="http://localhost/datafun-web/dataStory/save.do">save:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="3460e088-b99c-4909-afcb-813e60dfb6e4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request>{
+    "views": [
+        {
+            "children": [
+                {
+                    "chart": "GRID",
+                    "viewType": "GRID",
+                    "previewRows": 100,
+                    "frequency": 5,
+                    "dataSource": {
+                        "type": "CUBE",
+                        "name": "use_exp",
+                        "model_name": "use_exp",
+                        "dimensions": [
+                            {
+                                "name": "ABC.USER_EXP.SYSCLASSIFYL3",
+                                "table": "ABC.USER_EXP",
+                                "column": "SYSCLASSIFYL3",
+                                "derived": null
+                            },
+                            {
+                                "name": "ABC.USER_EXP.SOURCEOFREPORT",
+                                "table": "ABC.USER_EXP",
+                                "column": "SOURCEOFREPORT",
+                                "derived": null
+                            },
+                            {
+                                "name": "ABC.USER_EXP.CASETYPE",
+                                "table": "ABC.USER_EXP",
+                                "column": "CASETYPE",
+                                "derived": null
+                            }
+                        ],
+                        "measures": [
+                            {
+                                "name": "COUNT_",
+                                "function": {
+                                    "expression": "COUNT",
+                                    "parameter": {
+                                        "type": "constant",
+                                        "value": "1",
+                                        "next_parameter": null
+                                    },
+                                    "returntype": null
+                                },
+                                "dependent_measure_ref": null
+                            },
+                            {
+                                "name": "SUM_TIMECOST",
+                                "function": {
+                                    "expression": "SUM",
+                                    "parameter": {
+                                        "type": "column",
+                                        "value": "TIMECOST",
+                                        "next_parameter": null
+                                    },
+                                    "returntype": null
+                                },
+                                "dependent_measure_ref": null
+                            },
+                            {
+                                "name": "MAX_TIMECOST",
+                                "function": {
+                                    "expression": "MAX",
+                                    "parameter": {
+                                        "type": "column",
+                                        "value": "TIMECOST",
+                                        "next_parameter": null
+                                    },
+                                    "returntype": null
+                                },
+                                "dependent_measure_ref": null
+                            }
+                        ],
+                        "filters": []
+                    }
+                }
+            ],
+            "layout": "HBOX"
+        }
+    ],
+    "name": "grid-test"
+}</con:request><con:originalUri>http://localhost/datafun-web/dataStory/save.do</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="afea55ac-484f-4399-8b9e-4d8802953739" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="PreviewSQL.do" path="/datafun-web/dataStory/read.do?story=" id="f6d868d6-6313-4793-8789-9274a42769bd"><con:settings/><con:parameters/><con:method name="PreviewSQL.do" id="cb4e3a3a-ebb8-4649-a44c-6df6d7b677f0" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:prev="http://localhost/datafun-web/dataStory/previewSQL.do">prev:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request 1" id="1e34e837-5ef9-46a7-af58-74e3d72fe44d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request/><con:originalUri>http://localhost/datafun-web/dataStory/previewSQL.do</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="94f164a6-15e6-416e-adf8-627cb4ff391f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8181" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8181</con:endpoint></con:endpoints><con:resource name="GetAllDataSource.do" path="/datafun-web/datasource/getAllDataSource.do" id="3fd4fda7-92a1-4246-a198-d5b418c9e464"><con:settings/><con:parameters/><con:method name="GetAllDataSource.do" id="059d72b3-e192-4222-b21c-35503cf8beed" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:get="http://localhost/datafun-web/datasource/getAllDataSource.do">get:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="8c5547bd-3756-4d4f-a388-bb59d598cf3e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8181</con:endpoint><con:request>{
+ "type": "CUBE",
+ "projectName": "learn_kylin",
+ "limit": 5000
+}</con:request><con:originalUri>http://localhost/datafun-web/datasource/getAllDataSource.do</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

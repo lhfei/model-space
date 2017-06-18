@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="JDCLOU-DATAFUN" soapui-version="5.2.1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="DatasourceController">D:/Model_Workspace/Model_Workspace/SoapUI/JD/jcloud-datafun/REST-Project-1-soapui-project.xml</con:project>
+  <con:project name="NotebookRest">C:/Users/lihefei/Documents/NotebookRest-soapui-project.xml</con:project>
+  <con:project name="Project 1">C:/Users/lihefei/Documents/Project-1-soapui-project.xml</con:project>
+  <con:collectInfoForSupport>false</con:collectInfoForSupport>
+</con:soapui-workspace>
