@@ -5,7 +5,8 @@
 <Workspace>
 	<Local Expanded="Yes">
 		<Model ID="{F1A0FB98-BE30-4235-83C2-8891D8871096}" Loaded="No" Name="ipc_ai" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="/Model_Workspace/model-space/Model_Workspace/PowerDesigner/JD-PD/jcloud-datafun/ipc_ai/ipc_ai.prj"/>
-		<Model Expanded="Yes" ID="{FC5AA8BE-93D0-44BB-B22A-3548138013F0}" Name="YSC-OPEN" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../ysc-open/YSC-OPEN/YSC-OPEN.prj"/>
+		<Model ID="{FC5AA8BE-93D0-44BB-B22A-3548138013F0}" Loaded="No" Name="YSC-OPEN" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../ysc-open/YSC-OPEN/YSC-OPEN.prj"/>
+		<Model ID="{242C7F96-FB0B-4D39-999E-77E2CF51D59E}" Loaded="No" Name="URetail-API" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../CMO/URetail-API/URetail-API.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
