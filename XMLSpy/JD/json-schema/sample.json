@@ -1,0 +1,145 @@
+{
+  "$schema": "ABCDEFGHIJKLMNOPQRSTUVWXY",
+  "type": "ABCD",
+  "properties": {
+    "views": {
+      "type": "ABCDEFGHIJKLMNOPQRSTUV",
+      "items": {
+        "type": "ABCDEFGHI",
+        "properties": {
+          "children": {
+            "type": "ABCDEF",
+            "items": {
+              "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+              "properties": {
+                "chart": {
+                  "type": "ABCDEFGHIJKLMN"
+                },
+                "type": {
+                  "type": "ABCDEFGHIJKLMN"
+                },
+                "viewType": {
+                  "type": "ABCDEFGHIJKLMNOPQRSTUVWX"
+                },
+                "previewRows": {
+                  "type": 744.0
+                },
+                "sorter": {
+                  "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+                  "items": {
+                    "type": "ABCDEFGHIJKL",
+                    "properties": {
+                      "type": {
+                        "type": "ABCDEFGHIJKL"
+                      },
+                      "sort": {
+                        "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC"
+                      },
+                      "name": {
+                        "type": "ABCDEFGHIJ"
+                      },
+                      "key": {
+                        "type": "ABCDEFGHIJKLMN"
+                      }
+                    },
+                    "required": [
+                      "ABCDEFGH"
+                    ]
+                  }
+                },
+                "frequency": {
+                  "type": -28.5
+                },
+                "style": {
+                  "type": "ABCDEFGHIJKLM",
+                  "properties": {
+                    "title": {
+                      "type": "ABCDEFGHIJKLMNOPQRSTUVWX"
+                    },
+                    "needTitle": {
+                      "type": false
+                    },
+                    "width": {
+                      "type": 787.0
+                    },
+                    "height": {
+                      "type": 448.0
+                    },
+                    "needX": {
+                      "type": false
+                    },
+                    "needY": {
+                      "type": false
+                    }
+                  },
+                  "required": [
+                    "ABCDEFGHIJKLMNOPQRSTUVWX",
+                    "ABCDEFGHIJKLM"
+                  ]
+                },
+                "dataSource": {
+                  "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                  "properties": {
+                    "type": {
+                      "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZA"
+                    },
+                    "schema": {
+                      "type": "ABCDEFGHIJKLMNOP"
+                    },
+                    "model_name": {
+                      "type": "ABCDEFGHIJKLMNOP"
+                    },
+                    "table": {
+                      "type": "ABCDEFGHIJKLMNOPQRSTUV"
+                    },
+                    "dimensions": {
+                      "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+                      "items": {
+                        "type": "ABCDEFGHIJKLMNOPQRST"
+                      }
+                    },
+                    "measures": {
+                      "type": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+                      "items": {
+                        "type": "ABCDEFG"
+                      }
+                    },
+                    "limit": {
+                      "type": "ABCDEFGHIJKLMNO"
+                    }
+                  },
+                  "required": [
+                    "ABCDEFGHIJKLMNOPQRSTUVWX",
+                    "ABCD",
+                    "ABCDEFGH",
+                    "ABCDEFGHIJK"
+                  ]
+                }
+              },
+              "required": [
+                "ABCDEFGHIJKLMNOPQRSTUVW",
+                "ABCDEFGHIJKLMNOP",
+                "ABCDEFG",
+                "ABCDEFGHIJKLMNOPQRSTUVWXYZABC"
+              ]
+            }
+          },
+          "layout": {
+            "type": "ABCDEFGHIJKLMNOPQRSTUVWX"
+          }
+        },
+        "required": [
+          "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+          "ABCDEFGHIJKLMNOPQRS",
+          "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        ]
+      }
+    },
+    "name": {
+      "type": "ABCDEFGHIJKL"
+    }
+  },
+  "required": [
+    "ABCDEFGHIJKLMNOPQR"
+  ]
+}
