@@ -4,12 +4,12 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model ID="{3C202A8C-5E1B-4DE2-854A-F6334D7081BD}" Name="Business Process" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="Business Process.bpm"/>
-		<Model ID="{2893D7F3-50A4-4223-924F-4E7566D263AB}" Name="DataMovementModel" Type="{3F78E634-A98C-4FB7-994C-DD5DE09F2C44}" URL="DataMovementModel.dmm"/>
-		<Model ID="{00BD46EC-E51A-4CC5-BFE4-6ED3EDB1D4B6}" Name="MultiDimensional Data" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="MultiDimensional Data.pdm"/>
-		<Model ID="{6E1FB5FF-4A4F-4947-B740-899A21DEBF40}" Name="Data Flow Diagram" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="Data Flow Diagram.bpm"/>
-		<Model ID="{BEE4ED3F-96C6-4FA2-BD91-37239829FCF1}" Name="Conceptual Data" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Conceptual Data.cdm"/>
-		<Model Expanded="Yes" ID="{237B4DBA-9A4A-42DC-B8C2-5DFF775C7AA5}" Name="Physical Data" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Physical Data.pdm"/>
+		<Model ID="{3C202A8C-5E1B-4DE2-854A-F6334D7081BD}" Loaded="No" Name="Business Process" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="Business Process.bpm"/>
+		<Model ID="{2893D7F3-50A4-4223-924F-4E7566D263AB}" Loaded="No" Name="DataMovementModel" Type="{3F78E634-A98C-4FB7-994C-DD5DE09F2C44}" URL="DataMovementModel.dmm"/>
+		<Model ID="{00BD46EC-E51A-4CC5-BFE4-6ED3EDB1D4B6}" Loaded="No" Name="MultiDimensional Data" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="MultiDimensional Data.pdm"/>
+		<Model ID="{6E1FB5FF-4A4F-4947-B740-899A21DEBF40}" Loaded="No" Name="Data Flow Diagram" Type="{3D3C409C-B60D-430E-A1C4-B880653AC634}" URL="Data Flow Diagram.bpm"/>
+		<Model ID="{BEE4ED3F-96C6-4FA2-BD91-37239829FCF1}" Loaded="No" Name="Conceptual Data" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Conceptual Data.cdm"/>
+		<Model Expanded="Yes" ID="{237B4DBA-9A4A-42DC-B8C2-5DFF775C7AA5}" Loaded="No" Name="Physical Data" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Physical Data.pdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
