@@ -5,9 +5,9 @@
 <Workspace>
 	<Local Expanded="Yes">
 		<Model Expanded="Yes" ID="{DF018551-D527-4AB5-A8A5-552D49A5164E}" Loaded="No" Name="Forestry_University" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="/Model_Workspace/model-space/Model_Workspace/PowerDesigner/Forestry University/Forestry_University/Forestry_University.prj"/>
-		<Model ID="{62959EBF-5447-4070-A281-9945E1E8ABFA}" Loaded="No" Name="PhysicalDataModel_CLOUD_MASTER" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Project_Galaxy_Console/PhysicalDataModel_CLOUD_MASTER.pdm"/>
-		<Model Expanded="Yes" ID="{7DE80209-DC71-4FF6-A8B4-68F22809091A}" Name="Project_Galaxy_Console" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Project_Galaxy_Console/Project_Galaxy_Console.prj"/>
-		<Model Expanded="Yes" ID="{380FC26D-5DFB-4D4D-8C03-DA7AF3BEE439}" Loaded="No" Name="Project_URetail-API" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Project_URetail-API/Project_URetail-API.prj"/>
+		<Model ID="{62959EBF-5447-4070-A281-9945E1E8ABFA}" Name="PhysicalDataModel_CLOUD_MASTER" Selected="Yes" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Project_Galaxy_Console/PhysicalDataModel_CLOUD_MASTER.pdm"/>
+		<Model Expanded="Yes" ID="{7DE80209-DC71-4FF6-A8B4-68F22809091A}" Loaded="No" Name="Project_Galaxy_Console" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Project_Galaxy_Console/Project_Galaxy_Console.prj"/>
+		<Model Expanded="Yes" ID="{380FC26D-5DFB-4D4D-8C03-DA7AF3BEE439}" Name="Project_URetail-API" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Project_URetail-API/Project_URetail-API.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
